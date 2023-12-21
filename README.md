@@ -48,4 +48,4 @@ Arguments explanation:
 
 
 ## Acknowledgements
-This project is based on [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq). Special thanks to the original authors for their contributions to the open-source community.
+The code in this project is based on [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq) and [ESM-2](https://github.com/facebookresearch/esm). Special thanks to the original authors for their contributions to the open-source community.
