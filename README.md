@@ -30,7 +30,7 @@ Arguments explanation:
 - ```--dataset```: the name of datasets, just for notation
 - ```--data_dir```: the path to the saved datasets folder, containing ```train.csv  valid.csv```
 - ```--resume_checkpoint```: if not none, restore this checkpoint and continue training
-- ```--model_path```: the path to the used pretrained ESM-2 model, here we use "esm2_t30_150M_UR50D" which can be download [here](https://github.com/facebookresearch/esm?tab=readme-ov-file)
+- ```--model_path```: the path to the used pretrained ESM-2 model, here we use "esm2_t30_150M_UR50D" which can be download [here](https://github.com/facebookresearch/esm?tab=readme-ov-file) and put them to "diffusion_models/esm_orig"
 
 
 ## Generating
