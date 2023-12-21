@@ -25,6 +25,8 @@ cd scripts
 bash train.sh
 ```
 Arguments explanation:
+- ```--max_len```: the maximum length of the natrual sequences
+- ```--min_len```: the minimum length of the natrual sequences
 - ```--dataset```: the name of datasets, just for notation
 - ```--data_dir```: the path to the saved datasets folder, containing ```train.csv  valid.csv```
 - ```--resume_checkpoint```: if not none, restore this checkpoint and continue training
