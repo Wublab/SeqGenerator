@@ -45,3 +45,7 @@ Arguments explanation:
 - ```--max_len```: the maximum length of the generated sequence
 - ```--min_len```: the minimum length of the generated sequence
 - ```--seq_num```: the number of sequences generated
+
+
+##Acknowledgements
+This project is based on [DiffuSeq](https://github.com/Shark-NLP/DiffuSeq). Special thanks to the original authors for their contributions to the open-source community.
