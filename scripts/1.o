@@ -1,8 +1,0 @@
-diffusion_models/select
-python -m torch.distributed.launch --nproc_per_node=1 --master_port=12354 --use_env sample_seq2seq.py --model_path ./diffusion_models/esm_orig/esm2_t30_150M_UR50D.pt --model_diff_path diffusion_models/select/ema_0.9999_050000.pt --step 2000 --seq_len_sample datasets/aspartese/train.csv --max_len 490 --min_len 460 --seq_num 500 --batch_size 50 --seed2 123 --split test --out_dir generation_outputs --top_p -1 
-Logging to /tmp/openai-2023-12-21-15-20-30-842033
-diffusion_models/select/training_args.json
-### Creating model and diffusion...
-### The parameter count is 148960033
-### Sampling...on test
-############################## decoding finished...
